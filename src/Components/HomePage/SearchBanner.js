@@ -8,8 +8,8 @@ const SearchBanner = ({passTerm, passonChange}) => {
         return(
             <div className="HomeSearch">
                 <div className="container">
-                    <h1 className="text-center text-white">Lorem Ipsum</h1>
-                    <p className="text-center text-white">You chance to study free tutorial pdf</p>
+                    <h1 className="text-center text-white">Looking for a free Web Programming Books ?</h1>
+                    <p className="text-center text-white py-2">BookApp is free web app that provides you the latest trend books tutorial. It's your chance to expand your knowledge in Programming</p>
                     <div className="row justify-content-center">
                         <div className="col-sm-12 col-md-6">
                             <form>
@@ -21,7 +21,6 @@ const SearchBanner = ({passTerm, passonChange}) => {
                                 />
                             </form>
                         </div>
-                        <p></p>
                     </div>
                 </div>
             </div>
