@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import Navigation from './Navigation'
-import BookDetails from './BookDetails'
-import Err from './Err'
 import Home from './Home';
-import WishList from './WishList';
+import BookDetails from './BookDetails'
+import WishList from './WishList'
+import Err from './Err'
 
 
 class App extends Component {
@@ -47,7 +47,6 @@ class App extends Component {
 		setTimeout(() => {
 			this.getData(this.state.type)
 		},1000)
-
 	}
 	
 	handleClickItem = (bookItem) => {

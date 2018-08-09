@@ -169,3 +169,13 @@ body {
 .wishlist ul li img {
   box-shadow: -8px 9px 10px #000000bd;
 }
+
+
+@media only screen and (max-width: 1160px) {
+    .HomeSearch p {
+      padding: 0;
+    }
+    .navbar {
+      padding: 10px 25px;
+    }
+}
