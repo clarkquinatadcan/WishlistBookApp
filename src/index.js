@@ -4,7 +4,7 @@ import '../public/css/index.css'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import App from './Components/App'
+import App from './Components/containers/App'
 
 
 class Root extends React.Component {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 
-import Navigation from './Navigation'
-import Home from './Home';
-import BookDetails from './BookDetails'
-import WishList from './WishList'
-import Err from './Err'
+import Navigation from '../presentational/Navigation'
+import Home from '../presentational/Home';
+import BookDetails from '../presentational/BookDetails'
+import WishList from '../presentational/WishList'
+import Err from '../presentational/Err'
 
 
 class App extends Component {
