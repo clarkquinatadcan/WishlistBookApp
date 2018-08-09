@@ -1,8 +1,7 @@
 import React from 'react'
 
 const BookDetails = ({bookItemDetails, handleClickWishlist}) => {
-    // console.log(handleClickItem)
-    // console.log(wishList)
+
     return(
         <div className="bookInfo">
             <div className="header"></div>

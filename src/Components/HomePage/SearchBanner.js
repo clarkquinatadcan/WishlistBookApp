@@ -1,10 +1,7 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 
 
 const SearchBanner = ({passTerm, passonChange}) => {
-
-        // console.log(this.props.passonChange);
-        // console.log(passTerm);
         return(
             <div className="HomeSearch">
                 <div className="container">
