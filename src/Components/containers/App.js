@@ -16,7 +16,8 @@ class App extends Component {
 			books: [],
 			type: 'React',
 			bookItem: '',
-			wishlistItem: []
+			wishlistItem: [],
+			wishListcount: 0
 		};
 	}
 
@@ -71,6 +72,12 @@ class App extends Component {
 				})
 		 }
 	}
+	
+	handleClickCount = () => {
+		this.setState({
+			wishListcount: this.state.wishListcount + 1
+		})
+	}
 
 	render(){
 		const { isLoading, books } = this.state
@@ -89,7 +96,9 @@ class App extends Component {
 			
 				<div>
 				
-					<Navigation />
+					<Navigation 
+						handleClickCount = {this.handleClickCount}
+					/>
 
 					<Switch>
 
