@@ -96,8 +96,10 @@ class App extends Component {
 			
 				<div>
 				
-					<Navigation 
+					<Navigation
+						addCount = {this.state.wishListcount}
 						handleClickCount = {this.handleClickCount}
+						wishlistCount = {this.state.wishlistItem}
 					/>
 
 					<Switch>
